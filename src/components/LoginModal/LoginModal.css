@@ -1,0 +1,196 @@
+.loginmodal .login__dialog{
+    padding: 100px !important;
+    
+    
+    
+}
+
+
+.css-1t1j96h-MuiPaper-root-MuiDialog-paper{
+    padding: 40px !important;
+    width: 500px;
+    /* height: 300px; */
+    border-radius: 16px !important;
+    
+    
+
+}
+
+.login__dialog__btn__section{
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    margin-bottom: 20px;
+    
+    
+}
+
+
+.login__dialog__phonefield{
+    overflow: visible !important;
+    max-height: 150px;
+}
+.react-tel-input{
+    width: 100% !important;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.react-tel-input input{
+    width: 100% !important;
+}
+
+
+
+
+.login__dialog__title{
+    font-weight: 600 !important;
+    letter-spacing: 1.5px !important;
+    font-family: var(--primaryfont) !important;
+
+}
+
+.login__dialog__close__btn{
+    position: absolute !important;
+    top: 10px !important;
+    right: 10px !important;
+}
+
+.login__dialog__top__text{
+    font-size: 14px !important;
+    margin-top:5px !important;
+    color: var(--dark) !important;
+    font-weight: 500 !important;
+    letter-spacing: 1.0px !important;
+    font-family: var(--primaryfont) !important;
+
+}
+
+
+/* country List  */
+
+
+
+
+
+/* End country list */
+
+.login__dialog__bottom__text{
+    font-size: 14px !important;
+    padding-top:5px;
+    letter-spacing: 1.1px !important;
+    font-family: var(--primaryfont) !important;
+
+
+    
+}
+.login__dialog__otp{
+    padding-top: 20px !important;
+}
+
+.login__dialog__otp__bottom__section a{
+    text-decoration: none;
+    color: var(--dark);
+    letter-spacing: 1.1px !important;
+    font-family: var(--primaryfont) !important;
+
+
+}
+
+.otp__back__btn{
+    margin-right: 5px !important;
+
+}
+
+.otp__back__btn__icon{
+    font-size: 16px !important;
+    
+}
+
+.login__dialog__otp__top__text{
+    font-size: 14px !important;
+    padding-top:5px;
+    letter-spacing: 1.1px !important;
+    display: flex;
+    align-items: center;
+    margin-left: -10px !important;
+    font-family: var(--primaryfont) !important;
+
+}
+
+
+
+
+.login__dialog__otp__bottom__section{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+.login__dialog__btn{
+    background-color:var(--primary) !important;
+    border-radius: 16px !important;
+    padding: 10px 40px !important;
+    color: var(--light) !important;
+    margin-top: 5px !important;
+    
+}
+
+
+.login__dialog__btn:disabled{
+    opacity: .5 !important;
+    cursor: not-allowed !important;
+    pointer-events: all !important;
+}
+
+
+.login__modal__footer__text{
+    margin-top: 15px;
+    margin-bottom: 5px;
+    text-align: center;
+    color: var(--gray);
+    font-family: var(--primaryfont);
+    font-size: small;
+}
+
+
+
+
+/* Responsive */
+
+
+@media screen and (max-width: 740px){
+    .loginmodal{
+        display: none !important;
+        
+    }
+    .MuiModal-root .MuiDialog-container .MuiPaper-root{
+        padding: 50px 20px !important;
+        z-index: 9999 !important;
+       
+        border-radius: 0px !important;
+        
+        
+    }
+    /* .MuiModal-root{
+        padding:0px !important;
+        height: 100vh !important;
+    }
+
+    .MuiDialog-container{
+        height: 100% !important;
+        padding:0px !important;
+        margin:0px !important;
+        
+    } */
+    
+    .react-tel-input ul{
+        height: 500px !important;
+        
+        
+    }
+    
+    
+    
+}

@@ -1,0 +1,56 @@
+
+/* services Carousel */
+.bannerslider{
+    margin-right: 30px;
+    width: 100% !important;
+    margin-bottom: 60px;
+}
+
+.bannerslider .item img{
+    height: 300px;
+    width: 100%;
+    border-radius: 16px;
+    
+    
+}
+
+.bannerslider .owl-nav{
+    display: none !important;
+}
+
+.bannerslider .owl-dots{
+    margin-top: 20px;
+    
+    
+}
+.bannerslider .owl-dots .owl-dot>span{
+    background-color: var(--lightblue) !important;
+    height: 8px !important;
+    width: 8px !important;
+    margin-left:-2px !important;
+    
+}
+
+.bannerslider .owl-dots .active>span{
+    background-color: var(--primary) !important;
+    
+}
+
+
+
+
+
+@media screen and (max-width: 1100px) {
+    .bannerslider .item img{
+        height: 220px;
+        width: 100%;
+        border-radius: 16px;
+        
+        
+    }
+	
+    
+}
+
+
+

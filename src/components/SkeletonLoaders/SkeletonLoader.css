@@ -1,0 +1,8 @@
+.productviewSkleton{
+    display: flex;
+    gap: 20px;
+}
+
+.bannerSkeleton{
+    margin-bottom: 40px;
+}

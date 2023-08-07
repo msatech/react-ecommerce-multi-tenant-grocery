@@ -1,0 +1,238 @@
+.checkout__container {
+    padding: 110px 80px;
+    width: 100%;
+    background-color: #F6FAFF;
+}
+
+.checkout__container .Checkout__header h1 {
+    color: var(--dark);
+}
+
+.checkout__container .checkout__row {
+    display: flex;
+    width: 100%;
+    margin-top: 15px;
+    justify-content: space-between;
+}
+
+.checkout__row .checkout__user__info {
+    width: 70%;
+    background-color: #fff;
+    padding: 20px;
+    height: 100%;
+    border-radius: 4px;
+
+}
+
+.checkout__orders__container{
+    width: 25%;
+    height: 100%;
+}
+
+.checkout__row .checkout__orderdetails {
+   
+    background-color: #fff;
+    border-top: 6px solid var(--primary);
+    
+    padding: 10px;
+}
+
+.checkout__row .checkout__orderdetails h2 {
+    border-bottom: 1px solid var(--lightgray);
+    padding-bottom: 10px;
+}
+
+.checkout__title {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--dark);
+    margin: 20px 0px;
+}
+
+.delivery__methods {
+    display: flex;
+    gap: 20px;
+}
+
+.delivery__methods .active {
+    border: 2px solid var(--primary);
+    color: var(--primary) !important;
+}
+
+.delivery__methods>div {
+    background-color: var(--lightgray);
+    height: 50px;
+    width: 150px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    color: var(--gray);
+    cursor: pointer;
+}
+
+
+.checkout__user__info__steps {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+
+.checkout__orderdetails__products {
+    max-height: 350px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-bottom: 20px;
+    border-bottom: 2px dotted var(--lightgray);
+}
+
+
+
+.checkout__orderdetails__products .order__details {
+    display: flex;
+    justify-content: space-between;
+    color: var(--gray);
+    margin: 7px 0px;
+    font-size: 15px;
+
+}
+
+.checkout__orderdetails__products .order__details .price {
+    color: var(--dark);
+    font-weight: 700;
+    font-size: 16px;
+}
+
+
+.checkout__orderdetails__products .order__details .delivery__charges {
+    color: var(--success);
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.checkout__orderdetails__products .order__details .tax__charges {
+    color: var(--red);
+    font-weight: 500;
+    font-size: 16px;
+}
+
+
+
+.total__amount__to__pay {
+    padding-top: 20px;
+    max-height: 350px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+}
+
+.total__amount__to__pay .order__amount {
+    display: flex;
+    justify-content: space-between;
+    color: var(--dark);
+    margin: 7px 0px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.total__amount__to__pay .order__amount .total__amount{
+    font-weight: 800;
+}
+
+
+.checkout__orderdetails .saved__amount{
+    padding: 10px 5px;
+    background-color: rgba(226, 245, 226, 0.76);
+    color: var(--green);
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+
+/* Chekcout Orders Btn */
+
+.checkout__orders__btn{
+    padding: 15px 0px;
+    background-color: #fff;
+    margin-top: 20px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 26px;
+    font-weight: 700;
+    background-color: var(--primary);
+    color: #fff;
+    font-family: var(--primaryfont);
+}
+
+
+
+/* responsive */
+
+@media screen and (max-width: 1043px) {
+    .checkout__row .checkout__user__info {
+        width: 60% !important;
+    }
+    .checkout__orders__container{
+        width: 35%;
+    
+    }
+}
+
+@media screen and (max-width: 994px) {
+    .checkout__row .checkout__user__info {
+        width: 50% !important;
+    }
+    .checkout__orders__container{
+        width: 45%;
+    
+    }
+}
+
+@media screen and (max-width: 740px) {
+    .checkout__container {
+        padding: 90px 15px;
+
+    }
+
+    .checkout__container .checkout__row {
+        flex-direction: column;
+        gap:40px;
+    }
+
+    .Checkout__header {
+        display: none;
+    }
+
+    .checkout__container .checkout__row {
+        margin-top: 0px !important;
+    }
+
+    .checkout__row .checkout__user__info {
+        width: 100% !important;
+    }
+    .checkout__orders__container{
+        width: 100%;
+    
+    }
+
+    .checkout__orders__btn{
+        width: 100% !important;
+        border-radius: 0px !important;
+        position: fixed;
+        bottom: 0px;
+        left: 0;
+        right: 0;
+        background: var(--gradient-primary);
+    }
+
+    
+}

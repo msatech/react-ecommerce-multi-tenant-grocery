@@ -1,0 +1,132 @@
+.offerscarousel{
+	margin-bottom:60px;
+}
+
+.offerslider .item {
+    background-color: rgb(144, 209, 144);
+    width: 100%;
+    
+    border-radius: 8px;
+    background-color: transparent;
+}
+
+.offerslider .product-slider {
+    position: relative;
+}
+
+.offerslider .owl-nav {
+    position: relative;
+    top:40%;
+    right: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between !important;
+}
+
+.offerslider .owl-dots {
+    display: none;
+}
+
+
+
+.offerslider .owl-prev>span {
+    position: absolute;
+    top: -12px;
+    left: 15px;
+	font-size: 40px;
+}
+
+.offerslider .owl-next>span {
+    position: absolute;
+	top: -12px;
+    left: 15px;
+	font-size: 40px;
+}
+
+.offerslider .owl-next{
+    position:absolute !important;
+    bottom:55px;
+    right:-25px !important;
+}
+
+.offerslider .owl-prev{
+    position:absolute !important;
+    bottom:55px; 
+    left:-25px !important;
+
+}
+
+
+
+
+.offerslider .owl-next,
+.offerslider .owl-prev {
+    font-size: 35px !important;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between !important;
+    align-items: center !important;
+    background-color: #fff !important;
+	box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.1);
+    border-radius: 10px !important;
+    font-size: 20px !important;
+    
+}
+
+
+.offerslider .owl-next:hover,
+.offerslider .owl-prev:hover {
+    color: var(--lightgray) !important;
+}
+
+
+
+
+/* header section */
+
+.offerscarousel__header{
+    padding-bottom: 5px;
+    
+}
+
+.offerscarousel__header h2{
+    font-size: 30px;
+    font-weight: 400;
+}
+
+
+/* SLider item */
+
+.offerscarousel .offerslider{
+    margin-top: 25px;
+}
+
+
+
+/* responsive */
+
+
+@media screen and (max-width: 1100px) {
+    
+    
+	
+    
+}
+
+
+@media screen and (max-width: 740px){
+    .offerscarousel__header h2{
+        font-size: large;
+    }
+    .offerscarousel__header span{
+        font-size: small;
+        padding-top: 0px !important;
+
+    }
+    .offerslider .owl-nav {
+        display: none;
+    }
+}

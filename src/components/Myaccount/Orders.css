@@ -1,0 +1,131 @@
+
+.orders__section{
+    padding-top:20px;
+    width: 100% !important;
+    height: 500px;
+}
+
+.orders__container{
+    height: 100%;
+    padding: 20px;
+    border-radius: 8px;
+    overflow-y: scroll;
+}
+
+
+.orders__section .orders__items{
+    
+    display: grid;
+    gap: 20px;
+    
+    grid-template-columns: repeat(3, 1fr);
+    
+}
+
+.orders__items .orders__item{
+    display: flex;
+    flex-direction: column;
+    border-top: 2px solid var(--gray);
+    gap: 20px;
+    box-shadow: 0 1px 10px rgb(0 0 0 / 6%);
+    border-radius: 8px;
+    padding: 15px;
+}
+
+.orders__item .order__header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.orders__item .order__details{
+    display: flex;
+    justify-content: space-between;
+}
+
+.order__header .order__number, .order__details .order__amount__value, .order__details .order__quantity__value{
+    font-weight: 700;
+    font-size: 16px;
+    color: var(--dark);
+}
+
+
+.order__header .order__date{
+    color: var(--gray);
+}
+
+.order__details .order__quantity, .order__details .order__amount{
+    color: var(--gray);
+}
+
+.orders__item .order__details__status__btn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.order__details__status__btn .order__details__btn{
+    padding: 8px 20px;
+    display: flex;
+    justify-content: center;
+    border: 1px solid var(--dark);
+    border-radius: 50px;
+    align-items: center;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.order__details__status__btn .order__details__sattus.delivered{
+    color: var(--green);
+    font-weight: 600;
+    font-size: 16px;
+}
+
+
+.order__details__status__btn .order__details__sattus.pending{
+    color: var(--orange);
+    font-weight: 600;
+    font-size: 16px;
+}
+
+
+@media screen and (max-width: 1200px) {
+    
+	.orders__section .orders__items{
+        grid-template-columns: repeat(2, 1fr);
+    }
+       
+
+    
+}
+
+
+@media screen and (max-width: 1040px) {
+    
+	.orders__section .orders__items{
+        grid-template-columns: repeat(1, 1fr);
+    }
+       
+}
+
+
+
+@media screen and (max-width: 740px) {
+    .orders__section .orders__items{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .orders__section{
+        padding-top:20px;
+        width: 100% !important;
+        height: 100%;
+        
+    }
+    .orders__container{
+        margin-top: 40px;
+        margin-bottom: 70px;
+    }
+    
+    
+    
+
+    
+}

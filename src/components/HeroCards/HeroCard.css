@@ -1,0 +1,19 @@
+.herocard img{
+    height: 132px;
+    width: 100% !important;
+    border-radius: 8px;
+}
+
+.herocard{
+   
+    border-radius: 8px;
+}
+
+@media screen and (max-width: 1100px) {
+    .herocard img{
+        height: 100px;
+        width: 100% !important;
+    }
+	
+    
+}

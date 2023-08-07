@@ -1,0 +1,29 @@
+.mobileheader{
+    height: 60px;
+    width: 100%;
+    padding: 0 15px;
+    background-color: #fff;
+    position: fixed;
+    box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+    z-index: 999;
+    display: flex;
+    align-items: center;
+}
+
+.mobileheader__location{
+    font-size: 16px;
+}
+
+.mobileheader__location p{
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+}
+
+.mobileheader__location .location__icon{
+    font-size: 25px !important;
+    margin-top: 5px;
+    margin-right: 5px;
+    color: var(--primary);
+}

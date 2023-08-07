@@ -1,0 +1,84 @@
+{
+  "name": "newecommerce",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@ant-design/icons": "^4.7.0",
+    "@emotion/react": "^11.4.1",
+    "@emotion/styled": "^11.3.0",
+    "@google-pay/button-react": "^3.0.0",
+    "@mui/icons-material": "^5.0.3",
+    "@mui/material": "^5.0.3",
+    "@mui/styled-engine-sc": "^5.0.3",
+    "@reduxjs/toolkit": "^1.7.1",
+    "@testing-library/jest-dom": "^5.16.1",
+    "@testing-library/react": "^12.1.2",
+    "@testing-library/user-event": "^13.5.0",
+    "antd": "^4.17.4",
+    "axios": "^0.24.0",
+    "browser-signature": "^1.0.4",
+    "clientjs": "^0.2.1",
+    "cross-env": "^7.0.3",
+    "d3-ease": "^3.0.1",
+    "firebase": "^9.6.7",
+    "fuse.js": "^6.5.3",
+    "geolib": "^3.3.3",
+    "google-map-react": "^2.1.10",
+    "google-maps-react": "^2.0.6",
+    "react": "^17.0.2",
+    "react-bottom-drawer": "^0.1.1",
+    "react-dom": "^17.0.2",
+    "react-geocode": "^0.2.3",
+    "react-geolocated": "^3.2.0",
+    "react-google-autocomplete": "^2.6.1",
+    "react-google-maps": "^9.4.5",
+    "react-helmet": "^6.1.0",
+    "react-hook-geolocation": "^1.0.11",
+    "react-hook-google-maps": "^0.0.3",
+    "react-lazy-load-image-component": "^1.5.1",
+    "react-loading-skeleton": "^3.0.2",
+    "react-map-gl": "^6.1.18",
+    "react-owl-carousel": "^2.3.3",
+    "react-phone-input-2": "^2.14.0",
+    "react-phone-number-input": "^3.1.44",
+    "react-redux": "^7.2.6",
+    "react-router-dom": "^5.3.0",
+    "react-scripts": "5.0.0",
+    "react-speech-kit": "^3.0.1",
+    "react-speech-recognition": "^3.9.0",
+    "react-toastify": "^8.1.0",
+    "react-topbar-progress-indicator": "^4.1.0",
+    "uuidv4": "^6.2.12",
+    "web-vitals": "^2.1.2",
+    "worker-loader": "^3.0.8"
+  },
+  "scripts": {
+    "start": "react-scripts --max_old_space_size=4096 start",
+    "build": "react-scripts --max_old_space_size=4096 build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "json-loader": "^0.5.7",
+    "transform-loader": "^0.2.4",
+    "webworkify-webpack": "^1.0.6"
+  }
+}

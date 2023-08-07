@@ -1,0 +1,37 @@
+.invitefriend{
+    margin-top: 20px;
+    
+}
+
+.invitefriend .invitefriend__heading{
+    color: var(--gray);
+    font-size: 20px;
+}
+
+.invitefriend__refferal__code{
+    width: 200px;
+    height: 50px;
+    border: 1px solid var(--primary);
+    border-radius: 30px;
+    margin-top:40px;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 25px;
+    
+}
+
+.invitefriend__refferal__code p{
+    font-family: var(--primaryfont);
+    font-size: 18px;
+    color: var(--primary);
+    
+    
+
+}
+
+
+.copytoclipboard .copytoclipboard__icon{
+    color: var(--primary) !important;
+}

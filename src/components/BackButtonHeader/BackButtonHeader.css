@@ -1,0 +1,27 @@
+.mobileheaderback{
+    height: 60px;
+    width: 100%;
+    padding: 0 15px;
+    background-color: #fff;
+    position: fixed;
+    box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+    z-index: 999;
+    display: flex;
+    align-items: center;
+}
+
+
+.mobileheaderback p{
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+}
+
+
+.mobileheaderback .back__icon{
+    font-size: 25px !important;
+    margin-top: 5px;
+    margin-right: 5px;
+    color: var(--primary);
+    margin-right: 10px;
+}

@@ -1,0 +1,142 @@
+.myaccount__container{
+    padding: 110px 80px;
+    width: 100%;
+}
+
+.tabs__container{
+    width: 320px !important;
+    background-color: #F9F9F9;
+    padding: 0px 10px;
+    
+    
+}
+
+.myaccount__container .myaccount__title{
+    font-family: var(--primaryfont);
+    font-weight: 600;
+    letter-spacing: 1.2px;
+    
+}
+
+.tab__section__logout{
+    color: var(--danger) !important;
+}
+.tab__section__logout .myprofile__icon{
+    color: var(--danger) !important;
+}
+
+.user__info__logo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+    align-items: center;
+    padding:30px;
+}
+
+
+.user__info__logo img{
+    height: 100px;
+    width: 100px;
+}
+
+.user__info__logo p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.user__info__logo .editicon{
+    font-size: 16px;
+    margin-top:5px;
+    margin-left: 8px;
+}
+
+.tabs__container .tab__section{
+    width: 100% !important;
+   
+    display: flex !important;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-left:25px;
+    color: var(--dark);
+    text-transform: capitalize !important;
+    font-weight: 500;
+    letter-spacing: 1.2px;
+    font-family: var(--primaryfont) !important;
+
+    
+    
+}
+
+.tab__section[aria-selected="true"]{
+    border: none !important;
+    box-sizing: border-box;
+    box-shadow: 0 1px 10px rgb(0 0 0 / 6%);
+    border-radius: 5px;
+    color: var(--dark) !important;
+    
+}
+
+.MuiTabs-indicator{
+    background-color: transparent !important;
+    
+}
+
+
+
+.tabs__container .tab__section .myprofile__icon{
+    margin-right: 20px;
+    color: var(--gray);
+}
+
+.myaccount__container__mobile{
+    display: none;
+}
+
+
+/* Reponsiveness */
+
+@media screen and (max-width: 1100px) {
+    
+	.tabs__container{
+        width: 270px !important;
+        background-color: #F9F9F9;
+        padding: 0px 10px;
+        
+        
+    }
+        
+    
+    
+    
+}
+
+
+
+@media screen and (max-width: 740px) {
+    
+	.myaccount__container__web{
+        display: none;
+    }
+
+    .myaccount__container__mobile{
+        display: block;
+    }
+    .myaccount__container{
+        padding: 0px 0px;
+        
+        
+    }
+        
+    
+    
+    
+}
+
+
+
+
+
+

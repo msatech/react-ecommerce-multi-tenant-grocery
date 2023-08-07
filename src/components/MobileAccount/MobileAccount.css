@@ -1,0 +1,85 @@
+.mobileaccount__section{
+    height: 100vh !important;
+}
+
+.mobileaccount__section .location__section{
+    height: 300px;
+    padding: 80px 20px;
+    display: flex;
+    align-items: center;
+    background-color: var(--primary);
+    gap: 30px;
+    flex-direction: column;
+}
+
+.location__section .location__add{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: #fff;
+    padding: 10px 10px;
+    border-radius: 8px;
+}
+
+.location__add .location__view p {
+    display: flex;
+    align-items: center;
+    font-family: var(--primaryfont);
+    
+
+
+}
+
+.location__add .change__location{
+    color: var(--primary);
+    text-decoration: none;
+    font-size: small;
+}
+
+
+.location__add .location__view p .location__icon{
+    margin-right: 5px;
+    color: var(--primary);
+    padding-top: 0px;
+
+}
+
+.location__section .user__avatar__section .user__image{
+    height: 120px;
+    width: 120px;
+}
+
+
+/* Account section */
+
+.mobileaccount__section .account__sections{
+    display: flex;
+    flex-direction: column;
+}
+
+.account__sections .account__section{
+    padding: 15px 20px;
+    border-bottom: 1px solid var(--lightgray);
+
+}
+.account__sections .account__section p{
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+   
+    
+}
+.account__section p .account__section__icon{
+    color: var(--primary);
+    margin-right: 10px;
+    font-family: var(--primaryfont);
+}
+
+.account__section__icon__logout{
+    color: var(--danger) !important;
+}
+
+.account__section__logout p{
+    color: var(--danger);
+}

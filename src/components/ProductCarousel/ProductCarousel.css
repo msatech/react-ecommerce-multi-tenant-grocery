@@ -1,0 +1,157 @@
+.productcarousel{
+	margin-bottom:60px;
+}
+
+.itemslider .item {
+    background-color: rgb(144, 209, 144);
+    width: 100%;
+    
+    border-radius: 8px;
+    background-color: transparent;
+}
+
+.itemslider .product-slider {
+    position: relative;
+}
+
+.itemslider .owl-nav {
+    position: relative;
+    top:40%;
+    right: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between !important;
+}
+
+.itemslider .owl-dots {
+    display: none;
+}
+
+
+
+.itemslider .owl-prev>span {
+    position: absolute;
+    top: -10px;
+    left: 15px;
+	font-size: 40px;
+}
+
+.itemslider .owl-next>span {
+    position: absolute;
+	top: -10px;
+    left: 15px;
+	font-size: 40px;
+}
+
+.itemslider .owl-next{
+    position:absolute !important;
+    bottom:150px;
+    right:-25px !important;
+    
+    
+}
+
+.itemslider .owl-prev{
+    position:absolute !important;
+    bottom:150px; 
+    left:-25px !important;
+    display: flex;
+    align-items: center !important;
+    justify-content: center !important;
+
+}
+
+
+
+
+.itemslider .owl-next,
+.itemslider .owl-prev {
+    font-size: 35px !important;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    padding-top: 30px;
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
+    background-color: #fff !important;
+	box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.1);
+    border-radius: 10px !important;
+    font-size: 20px !important;
+}
+
+
+.itemslider .owl-next:hover,
+.itemslider .owl-prev:hover {
+    color: var(--lightgray) !important;
+}
+
+
+
+
+/* header section */
+
+.productcarousel__header{
+    padding-bottom: 5px;
+    
+    
+}
+.productcarousel__header div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+.productcarousel__header div span{
+    padding-top: 5px;
+    
+    color: var(--green);
+
+    
+}
+
+.productcarousel__header div span:hover{
+    color: var(--orange);
+    cursor: pointer;
+    
+    
+}
+
+.productcarousel__header h2{
+    font-size: 30px;
+    font-weight: 400;
+    margin-right: 20px;
+}
+
+
+/* SLider item */
+
+.productcarousel .itemslider{
+    margin-top: 25px;
+}
+
+
+
+/* responsive */
+
+@media screen and (max-width: 1100px) {
+    
+    
+
+    
+}
+
+@media screen and (max-width: 740px){
+    .productcarousel__header h2{
+        font-size: large;
+    }
+    .productcarousel__header span{
+        font-size: small;
+        padding-top: 0px !important;
+
+    }
+    .itemslider .owl-nav {
+        display: none;
+    }
+}
